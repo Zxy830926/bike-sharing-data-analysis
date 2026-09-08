@@ -28,7 +28,7 @@ The notebook uses Pandas and NumPy for data loading and preparation, and Matplot
 ├── bike_analysis.ipynb       # Executable analysis notebook
 ├── share bike.csv            # Input dataset
 ├── bike_analysis.pdf         # Exported report
-└── run_instructions.txt      # Local execution notes
+└── 运行代码说明.txt          # Local execution notes
 ```
 
 ## Quick Start
