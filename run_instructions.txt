@@ -1,0 +1,52 @@
+运行代码说明
+
+一、实验说明
+
+本实验使用 Jupyter Notebook 完成共享单车租用影响因素分析，主要分析时间、温度、天气、风速、湿度、月份、工作日与非工作日、注册用户与非注册用户等因素对租车数量的影响。
+
+二、文件说明
+
+本文件夹中包含以下文件：
+
+1. bike_analysis.ipynb
+   实验 Notebook 文件，包含数据读取、数据预处理、图表绘制和分析结论。
+
+2. share bike.csv
+   实验使用的共享单车原始数据文件。
+
+3. bike_analysis.pdf
+   由 Notebook 导出的实验报告 PDF 文件，包含代码运行结果、图表和文字分析。
+
+4. 运行代码说明.txt
+   本说明文档，用于说明实验文件内容、运行环境和运行方法。
+
+三、运行环境
+
+建议使用 Python 3.x 环境运行本实验。
+
+需要使用的主要 Python 库如下：
+
+1. pandas
+2. numpy
+3. matplotlib
+
+如果本机没有安装相关库，可以在终端中执行以下命令：
+
+pip install pandas numpy matplotlib
+
+四、运行方法
+
+1. 将 bike_analysis.ipynb 和 share bike.csv 放在同一个文件夹中。
+2. 使用 VS Code 或 Jupyter Notebook 打开 bike_analysis.ipynb。
+3. 选择 Python 3.x 内核。
+4. 点击 Run All 或“全部运行”，依次运行所有代码单元格。
+5. 运行完成后，可以看到数据检查结果、各类图表以及对应的分析结论。
+6. 如果需要重新生成 PDF，可以先将 Notebook 导出为 HTML，再使用浏览器打印为 PDF。
+
+五、注意事项
+
+本实验代码使用相对路径读取数据：
+
+pd.read_csv("share bike.csv")
+
+因此运行时需要保证 share bike.csv 与 bike_analysis.ipynb 位于同一个文件夹中，否则程序可能无法正确读取数据。
